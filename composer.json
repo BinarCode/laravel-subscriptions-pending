@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "binarcode/laravel-subscriptions",
+    "description": "Lightweight package to add payment plan subscriptions.",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "binarcode",
+        "laravel-subscriptions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/binarcode/laravel-subscriptions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Eduard Lupacescu",
+            "email": "eduard.lupacescu@binarcode.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "BinarCode\\LaravelSubscription\\": "src",
+            "BinarCode\\LaravelSubscription\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "BinarCode\\LaravelSubscription\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "BinarCode\\LaravelSubscription\\LaravelSubscriptionServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelSubscription": "BinarCode\\LaravelSubscription\\LaravelSubscriptionFacade"
             }
         }
     },
