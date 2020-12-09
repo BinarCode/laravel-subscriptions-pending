@@ -2,8 +2,8 @@
 
 namespace BinarCode\LaravelSubscription;
 
-use Illuminate\Support\ServiceProvider;
 use BinarCode\LaravelSubscription\Commands\LaravelSubscriptionCommand;
+use Illuminate\Support\ServiceProvider;
 
 class LaravelSubscriptionServiceProvider extends ServiceProvider
 {

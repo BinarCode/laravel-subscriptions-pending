@@ -2,9 +2,9 @@
 
 namespace BinarCode\LaravelSubscription\Tests;
 
+use BinarCode\LaravelSubscription\LaravelSubscriptionServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BinarCode\LaravelSubscription\LaravelSubscriptionServiceProvider;
 
 class TestCase extends Orchestra
 {
